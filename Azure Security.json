@@ -1,4 +1,19 @@
 {
+  "__inputs": [],
+  "__requires": [
+    {
+      "type": "grafana",
+      "id": "grafana",
+      "name": "Grafana",
+      "version": "6.0.1"
+    },
+    {
+      "type": "panel",
+      "id": "grafana-worldmap-panel",
+      "name": "Worldmap Panel",
+      "version": "0.2.0"
+    }
+  ],
   "annotations": {
     "list": [
       {
@@ -15,7 +30,7 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 2,
+  "id": null,
   "links": [],
   "panels": [
     {
@@ -88,7 +103,7 @@
       "thresholds": "0,10",
       "timeFrom": null,
       "timeShift": null,
-      "title": "Outbound connections",
+      "title": "Potential malicious connections",
       "transparent": true,
       "type": "grafana-worldmap-panel",
       "unitPlural": "",
@@ -134,5 +149,5 @@
   "timezone": "",
   "title": "Azure Security",
   "uid": "AQbYmN9mk",
-  "version": 2
+  "version": 5
 }
